@@ -9,7 +9,7 @@ import javax.persistence.*;
 
 @Entity
 @Getter @Setter
-public class OderItem {
+public class OrderItem {
 
     @Id @GeneratedValue
     @Column(name = "order_item_id")
